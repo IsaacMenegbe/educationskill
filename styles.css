@@ -35,7 +35,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/download\ \(3\).jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./download\ \(3\).jpeg);
   color: #fff;
   text-align: center;
   padding: 0.5em 1em;
@@ -86,7 +86,7 @@ header {
   margin-top: 50px; /* Adjust for fixed header */
   text-align: center;
   padding: 3em 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/download\ \(2\).jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./download\ \(2\).jpeg);
   color: white;
 }
 
