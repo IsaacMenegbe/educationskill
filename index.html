@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill-Based Learning App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header (with navigation) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">SkillApp</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#selling-points">Selling Points</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#success-stories">Success Stories</a></li>
+        <li><a href="#partnerships" onclick="comingSoon()">Partnerships</a></li>
+      </ul>
+      <button class="toggle-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Empowering Learners for the Future</h1>
+      <p>Access courses and skills that will help you thrive in the digital economy.</p>
+      <a href="#selling-points" class="get-started-btn">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Selling Points Section -->
+  <section id="selling-points">
+    <h2>Why This App is Essential</h2>
+    <div class="points-container">
+      <div class="point">
+        <h3>Wide Reach</h3>
+        <p>Accessible learning for everyone, anytime, anywhere.</p>
+      </div>
+      <div class="point">
+        <h3>Employment-Driven</h3>
+        <p>Skills taught are aligned with job market demands.</p>
+      </div>
+      <div class="point">
+        <h3>Scalable and Adaptable</h3>
+        <p>The app grows with you, adding more courses and features over time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Featured Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>Digital Literacy</h3>
+        <button onclick="showModule('Digital Literacy')">Start Learning</button>
+      </div>
+      <div class="skill-card">
+        <h3>Web Development</h3>
+        <button onclick="showModule('Web Development')">Start Learning</button>
+      </div>
+      <div class="skill-card">
+        <h3>Data Analysis</h3>
+        <button onclick="showModule('Data Analysis')">Start Learning</button>
+      </div>
+      <div class="skill-card">
+        <h3>Agricultural Business Skills</h3>
+        <button onclick="showModule('Agricultural Business Skills')">Start Learning</button>
+      </div>
+      <div class="skill-card">
+        <h3>Soft Skills Development</h3>
+        <button onclick="showModule('Soft Skills Development')">Start Learning</button>
+      </div>
+      <div class="skill-card">
+        <h3>Entrepreneurship</h3>
+        <button onclick="showModule('Entrepreneurship')">Start Learning</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Stories Section -->
+  <section id="success-stories">
+    <h2>Success Stories</h2>
+    <div id="stories-container" class="stories-container">
+      <div class="story-card">
+        <h3>Aisha Bello</h3>
+        <p>"I learned Data Analysis through the app and got hired as a data analyst!"</p>
+      </div>
+      <div class="story-card">
+        <h3>Michael Obasi</h3>
+        <p>"My farm business grew with the Agricultural Business Skills module."</p>
+      </div>
+    </div>
+
+    <!-- Add New Story Form -->
+    <h3>Add Your Success Story</h3>
+    <form id="add-story-form" class="styled-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <textarea id="story" placeholder="Your Success Story" required></textarea>
+      <button type="button" onclick="addStory()">Add Story</button>
+    </form>
+  </section>
+
+  <!-- Partnerships Section -->
+  <section id="partnerships">
+    <h2>Our Partners</h2>
+    <ul>
+      <li><a href="#" onclick="comingSoon()">University of Ibadan</a></li>
+      <li><a href="#" onclick="comingSoon()">Andela Learning Community</a></li>
+      <li><a href="#" onclick="comingSoon()">LinkedIn Learning</a></li>
+      <li><a href="#" onclick="comingSoon()">Google Nigeria</a></li>
+      <li><a href="#" onclick="comingSoon()">Local Government Agencies</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Skill-Based Learning App. All Rights Reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
